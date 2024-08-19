@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- is what comments start with
+  and end with. A comment is code not run -->
+<!-- Doctype is a way to communicate and let the browser know how to render (or display)
+  a given document
+-->
+<!-- https://www.w3.org/QA/2002/04/valid-dtd-list.html :
+  The simplest and most reliable doctype declaration to use is the one defined in HTML5:
+-->
+<html>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
+    The HTML <html> element represents the root (top-level element) of an HTML document,
+      so it is also referred to as the root element.
+      All other elements must be descendants of this element.
+   -->
+  <head>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
+      The HTML <head> element contains machine-readable information (metadata) about the document,
+        like its title, scripts, and style sheets.
+    -->
+    <title>This is my first title</title>
+  </head>
+  <body>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
+      The HTML <body> Element represents the content of an HTML document.
+        There can be only one <body> element in a document.
+    -->
+    <header>
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header -->
+      <nav>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav -->
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a -->
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main -->
+      <div>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/heading_elements -->
+        <h1 id="h1">
+          About ProgrammingTIL
+        </h1>
+        <section>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p -->
+          <p>
+            This is where I'd write about this site!
+            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br -->
+            <br>
+            <br>
+            <br>
+            Instead I'll just throw in a few line breaks.
+            <br>
+            <br>
+            and an image:
+            <img src="https://images.unsplash.com/photo-1620858716448-0678085562da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80">
+            <br>
+            <a href="https://unsplash.com/photos/3pf4rDCF-9Y">Source</a>
+            <br>
+            <br>
+            and another:
+            <img src="images/christin-hume-Hcfwew744z4-unsplash.jpg" alt="A person working">
+            <br>
+            <a href="https://unsplash.com/photos/Hcfwew744z4" target="_blank">Source</a>
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer -->
+      <!-- https://entitycode.com/ -->
+      &copy; Copyright and Other Things 2020+
+    </footer>
+  </body>
+</html>
